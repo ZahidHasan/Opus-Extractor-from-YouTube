@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-YT-DLP Audio Downloader & Extractor (.opus)
-GUI Framework: NiceGUI
-Customized via YT-DLP Python GUI Builder
+YT-DLP Opus Extractor
+---------------------
+A Python + NiceGUI project to download high-quality YouTube audio in Opus format using yt-dlp and FFmpeg.
+SEO Keywords: yt-dlp, opus, youtube audio extractor, python gui, ffmpeg conversion
 """
 import os
 import sys

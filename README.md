@@ -1,4 +1,4 @@
-## 💕Introducion
+## 💕Download YouTube audio in Opus format using yt-dlp and Python GUI
 
 A sleek, local, web-based graphical user interface (GUI) for yt-dlp, purpose-built for extracting high-fidelity audio from YouTube videos. Built using Python and NiceGUI, this tool provides an elegant dark-themed dashboard to streamline downloading, format conversion, and automated metadata embedding.
 
