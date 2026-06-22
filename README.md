@@ -1,3 +1,6 @@
+## Introducion
+A sleek, local, web-based graphical user interface (GUI) for yt-dlp, purpose-built for extracting high-fidelity audio from YouTube videos. Built using Python and NiceGUI, this tool provides an elegant dark-themed dashboard to streamline downloading, format conversion, and automated metadata embedding.
+
 ## 💖 Acknowledgments & Credits
 This project is a graphical wrapper that relies heavily on the incredible work of the open-source community. Special thanks to:
 
@@ -7,35 +10,32 @@ This project is a graphical wrapper that relies heavily on the incredible work o
 
 Please consider starring their repositories if you find this tool useful!
 
-* **[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg):**
-* **[PowerShell Automation](https://img.shields.io/badge/PowerShell-Automated-lightblue):**
-* **[Python](https://shields.io):**
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![PowerShell Automation](https://img.shields.io/badge/PowerShell-Automated-lightblue)
+![Python](https://shields.io)
 
 ## 📸 Screenshots
-/assets/YT-DLP-gui.png
-
-## Introducion
-A sleek, local, web-based graphical user interface (GUI) for yt-dlp, purpose-built for extracting high-fidelity audio from YouTube videos. Built using Python and NiceGUI, this tool provides an elegant dark-themed dashboard to streamline downloading, format conversion, and automated metadata embedding.
+![Opus Downloadr](/assets/YT-DLP-gui.png)
 
 ✨ Features
-Modern Web-Based UI: Clean, responsive, and distraction-free dark interface powered by NiceGUI.
+1. Modern Web-Based UI: Clean, responsive, and distraction-free dark interface powered by NiceGUI.
 
-High-Fidelity Audio: Fully optimized for extracting native high-quality audio formats like Opus.
+2.High-Fidelity Audio: Fully optimized for extracting native high-quality audio formats like Opus.
 
-Automated Post-Processing:
+3. Automated Post-Processing:
 
-Automatically handles thumbnail image conversions (e.g., WebP to PNG).
+4. Automatically handles thumbnail image conversions (e.g., WebP to PNG).
 
-Uses mutagen to seamlessly embed album art and metadata directly into the audio file container.
+5. Uses mutagen to seamlessly embed album art and metadata directly into the audio file container.
 
-Real-time Active Logs: An integrated, scrollable terminal console directly on the web page so you can track download progress and yt-dlp output in real time.
+6. Real-time Active Logs: An integrated, scrollable terminal console directly on the web page so you can track download progress and yt-dlp output in real time.
 
-Duplicate Detection: Smart parsing to check if the target file already exists in your destination directory before re-downloading.
+7. Duplicate Detection: Smart parsing to check if the target file already exists in your destination directory before re-downloading.
 
-📸 Implementation Preview
+## 📸 Implementation Preview
 When a download is processed, the system handles the extraction, converts the artwork, and packages everything cleanly into a single file:
 
-🛠️ Requirements & Dependencies
+## 🛠️ Requirements & Dependencies
 Before running the application, make sure you have the necessary system binaries and Python packages installed:
 
 1. FFmpeg Binaries: Must be installed and configured on your system's environmental PATH. (Required by yt-dlp for audio extraction and thumbnail processing).
